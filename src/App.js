@@ -1,9 +1,14 @@
-import {Users} from "./components";
+import {useState} from "react";
 
-function App() {
+import {SelectedUser, Users} from "./components";
+
+const App = () => {
+    const [selectedUser, setSelectedUser] = useState(null);
+
   return (
     <div>
-      <Users/>
+        {selectedUser && <SelectedUser user={selectedUser}/>}
+        <Users getUser={setSelectedUser}/>
     </div>
   );
 }
