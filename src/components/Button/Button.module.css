@@ -1,0 +1,9 @@
+.btn{
+    color: red;
+}
+
+.bth:hover{
+    background-color: red;
+    color: snow;
+    cursor: pointer;
+}
