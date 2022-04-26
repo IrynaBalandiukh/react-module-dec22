@@ -1,0 +1,11 @@
+.btn{
+    background-color: #cba5ef;
+    color: seashell;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: seashell;
+    color: #cba5ef;
+    cursor: pointer;
+}
