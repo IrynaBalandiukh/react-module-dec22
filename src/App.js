@@ -1,9 +1,12 @@
-function App() {
-  return (
-    <div>
+import {Form, Users} from "./components";
 
-    </div>
-  );
+function App() {
+    return (
+        <div>
+            <Form/>
+            <Users/>
+        </div>
+    );
 }
 
 export default App;
